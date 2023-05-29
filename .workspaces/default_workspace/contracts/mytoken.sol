@@ -15,6 +15,7 @@ contract MyToken is ERC20 {
         _mint(msg.sender, 100 * 10**uint(decimals()));
     }
 
+    // fauset 기능
     function claimTokens() public {
         uint256 lastClaim = _lastClaim[msg.sender];
         if (lastClaim == 0) {

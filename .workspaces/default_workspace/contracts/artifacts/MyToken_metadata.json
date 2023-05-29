@@ -359,7 +359,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/mytoken.sol": "MyToken"
+			".workspaces/default_workspace/contracts/mytoken.sol": "MyToken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -367,18 +367,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"contracts/mytoken.sol": {
-			"keccak256": "0x558641be9a3e9dcc2332b42797dad11723fd0aea0c96097178141f50d155e446",
+		".workspaces/default_workspace/contracts/mytoken.sol": {
+			"keccak256": "0x6f98999172530a71f27ac2086c6e18325ded69eb413d9b1682c995779c5ac262",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6bdde11eb89eaf54742ba03a2d4e1db0f30029c0b4ad7e9f49425654ea168679",
-				"dweb:/ipfs/QmPm4hFQZcbPWXjeesvXcKYjuXm3fscnKAGcJ3QsR4kEU1"
+				"bzz-raw://4c17f9f61a567c419e8817c96c762d84c813b212137f5c99ccdfe30e552f39c4",
+				"dweb:/ipfs/QmXSnwmJExvmasDyMqStC9bUShqvAKRSoNLGZ3bNeH2mmc"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol": {
